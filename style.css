@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans';
+    font-weight: 200;
+}
+
+/* Header */
+header {
+    background-color: #faf9f6;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: box-shadow 0.3s ease;
+}
+
+header a {
+    color: #353935;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #353935;
+    line-height: 80px;
+    padding-left: 10%;
+    display: inline-block;
+    font-weight: 200;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 4vw;
+    font-size: 1.2em;
+}
+
+header ul {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    line-height: 80px;
+}
+/* Header ends */
+
+/* Home banner */
+#home-banner {
+    background-color: #faf9f6;
+    color: #faf9f6;
+    text-align: center;
+    height: 90vh;
+    background-image: url(images/home-cover.jpeg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-banner h2 {
+    font-weight: 100;
+    font-size: 3em;
+}
+/* Home banner ends */
+
+/* Profile page */
+#profile-banner {
+    background-color: #faf9f6;
+    color: #faf9f6;
+    text-align: center;
+    height: 20em;
+    background-image: url(images/profile-banner.jpeg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-banner h2 {
+    font-weight: 200;
+    font-size: 3em;
+    color: #faf9f6;
+}
+
+#profile-content {
+    margin-inline: 25%;
+    color: #353935;
+    font-weight: 300;
+}
+
+#profile-content ul {
+    list-style: none;
+    line-height: 25px;
+}
+
+#profile-content h2 {
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+#profile-content a {
+    text-decoration: none;
+    color: #353935;
+}
+
+#profile-content ol {
+    padding-left: 1em;
+    line-height: 25px;
+}
+
+#media {
+    padding-bottom: 1em;
+}
+/* Profile page ends */
+
+/* Teaser pager */
+#teaser {
+    background-color: #faf9f6;
+    color: #faf9f6;
+    text-align: center;
+    height: 90vh;
+    background-image: url(images/teaser.JPG);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#teaser h2 {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3em;
+    color: #faf9f6;
+}
+
+#teaser a {
+    color: #faf9f6; 
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #353935;
+    color: #faf9f6;
+    min-height: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+
+footer #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer #nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.45em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #faf9f6;
+}
+
+footer a:hover {
+    color: #faf9f6;
+}
+
+footer p {
+    margin: 0.15em 0;
+}
+/* Footer end */

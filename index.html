@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en,zh-HK">
+<head>
+    <title>Kelly Leung</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Profile/ Blog to practice basic HTML skills.">
+    <meta name="author" content="Kelly Leung">
+    <meta http-equiv="content-language" content="en, zh-HK">
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Kelly Leung | 梁以忻">
+    <meta property="og:title" content="Home"/>
+    <meta property="og:description" content="Made in Hong Kong."/>
+    <meta property="og:url" content="https://kelly990918.github.io/index.html"/>
+    <meta property="og:image" content="https://kelly990918.github.io/images/home-cover.jpeg"/>
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:locale" language_TERRITORY="en_US"/>
+    <meta property="og:locale:alternate" content="zh_HK" />
+    <!-- X(Twitter) tag -->
+    <meta name="twitter:title" content="Kelly Leung | 梁以忻">
+    <meta name="twitter:description" content="Made in Hong Kong.">
+    <meta name="twitter:image" content="https://kelly990918.github.io/images/home-cover.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!--Google Fonts: TASA Orbiter; Noto Sans HK; Noto Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
+    <!--Icons: Font Awesome-->
+    <script src="https://kit.fontawesome.com/8e65ad7203.js" crossorigin="anonymous"></script>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+<header>
+    <a href="index.html" style="text-decoration: none; color: #353935;"><h1>Kelly Leung | 梁以忻</h1></a>
+    <div>
+        <ul>
+            <li><a href="profile.html" class="top-nav">Profile</a></li>
+            <li><a href="books.html" class="top-nav">Books & Movies</a></li>
+            <li><a href="gallery.html" class="top-nav">Gallery</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <section id="home-banner">
+        <h2>Discovering the beauty of Earth</h2>
+    </section>
+</main>
+
+<footer>
+  <div id="contact">
+    <p style="font-size: 1.5em;">Kelly Leung | 梁以忻</p>
+    <p>yl12278 [at] nyu.edu</p>
+    <a href="https://github.com/kelly990918" target="_blank">
+      <i class="fa-brands fa-github" style="font-size: 1em; vertical-align: middle;"></i>
+    </a>
+  </div>
+
+  <div id="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/profile.html">Profile</a></li>
+        <li><a href="books.html" class="top-nav">Books & Movies</a></li>
+        <li><a href="gallery.html" class="top-nav">Gallery</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+const header = document.querySelector('header');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+        header.style.boxShadow = '0 2px 12px rgba(0, 0, 0, 0.08)';
+    } else {
+        header.style.boxShadow = 'none';
+    }
+});
+</script>
+
+</body>
+</html>
