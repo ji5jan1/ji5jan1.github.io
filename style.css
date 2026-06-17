@@ -89,6 +89,7 @@ header ul {
     font-weight: 200;
     font-size: 3em;
     color: #faf9f6;
+    text-shadow: 0 1px 1px #D3D3D3;
 }
 
 #profile-content {
@@ -107,6 +108,8 @@ header ul {
     padding-bottom: 0.3em;
     font-size: 1.3em;
     font-weight: 300;
+    text-shadow: 0 1px 1px #D3D3D3;
+    text-shadow: none !important;
 }
 
 #profile-content a {
@@ -122,9 +125,71 @@ header ul {
 #media {
     padding-bottom: 1em;
 }
+
+#self-intro p {
+    padding-top: 2em;
+}
 /* Profile page ends */
 
-/* Teaser pager */
+/* Bookshelf */
+#books-banner {
+    background-color: #faf9f6;
+    color: #faf9f6;
+    text-align: center;
+    height: 20em;
+    background-image: url(images/books-banner.jpeg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#books-banner h2 {
+    font-weight: 200;
+    font-size: 3em;
+    color: #faf9f6;
+    text-shadow: 0 1px 1px #D3D3D3;
+}
+
+#books {
+    margin-inline: 25%;
+}
+
+.book-review {
+    display: flex;
+    margin-top: 30px;
+}
+
+.book-review img {
+    height: 200px;
+    width: auto;
+    align-items: center;
+}
+
+.review-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.author {
+    font-size: small;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.review-text h3 {
+    font-size: large !important;
+    font-weight: 500 !important;
+    text-align: center;
+}
+
+/* Bookshelf Ends */
+
+/* Teaser page */
 #teaser {
     background-color: #faf9f6;
     color: #faf9f6;
@@ -146,18 +211,20 @@ header ul {
     font-style: italic;
     font-size: 3em;
     color: #faf9f6;
+    text-shadow: 0 2px 12px #D3D3D3;
 }
 
 #teaser a {
     color: #faf9f6; 
     text-decoration: none;
+
 }footer {
     background-color: #353935;
     color: #faf9f6;
     min-height: 10em;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;        /* Changed to flex-start for better alignment */
+    align-items: flex-start;
     padding: 2em 10vw;
     box-sizing: border-box;
 }
@@ -183,15 +250,11 @@ footer a {
     color: #faf9f6;
 }
 
-footer a:hover {
-    color: #ccc;                    /* Fixed: was same as normal color */
-}
-
 footer p {
     margin: 0.15em 0;
 }
 
-/* Social Icons Row */
+/* Social Icons */
 .social-icons {
     display: flex;
     gap: 1.2em;
@@ -204,10 +267,6 @@ footer p {
     transition: color 0.2s ease;
 }
 
-.social-icons a:hover {
-    color: #ccc;
-}
-
 /* Footer */
 footer {
     background-color: #353935;
@@ -215,7 +274,7 @@ footer {
     min-height: 10em;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;        /* Changed to flex-start for better alignment */
+    align-items: flex-start;
     padding: 2em 10vw;
     box-sizing: border-box;
 }
