@@ -158,6 +158,12 @@ header ul {
     margin-inline: 25%;
 }
 
+#books-subtitle {
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 0.5em;
+}
+
 .book-review {
     display: flex;
     margin-top: 30px;
