@@ -179,6 +179,7 @@ header ul {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
+    padding-bottom: 15px;
 }
 
 .author {
